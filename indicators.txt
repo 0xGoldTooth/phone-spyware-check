@@ -1,0 +1,40 @@
+# Name fragments that point to spy / monitoring apps.
+# Format: <HIGH|MEDIUM> <text>. Matched against package names (lowercase).
+# HIGH  = brand of a known stalkerware product.
+# MEDIUM = generic word. Legit apps use it too, so it only means "take a look".
+# For the full public list of 600+ packages run: python3 spyware_check.py --update-ioc
+
+HIGH mspy
+HIGH flexispy
+HIGH cocospy
+HIGH spyic
+HIGH spyzie
+HIGH hoverwatch
+HIGH thetruthspy
+HIGH truthspy
+HIGH xnspy
+HIGH eyezy
+HIGH spyhide
+HIGH copy9
+HIGH highster
+HIGH ikeymonitor
+HIGH kidsguard
+HIGH clevguard
+HIGH mobistealth
+HIGH spyera
+HIGH spybubble
+HIGH umobix
+HIGH webwatcher
+HIGH catwatchful
+HIGH snoopza
+HIGH spapp
+HIGH ispyoo
+
+MEDIUM spy
+MEDIUM keylog
+MEDIUM stealth
+MEDIUM tracker
+MEDIUM monitor
+MEDIUM parental
+MEDIUM hidden
+MEDIUM cerberus

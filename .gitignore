@@ -1,0 +1,4 @@
+ioc.yaml
+spyware-report-*.md
+__pycache__/
+.DS_Store
